@@ -5,6 +5,12 @@ var element=document.getElementById('main=text'
 );
 element.innerHTML= 'newvalue';
 var img=document.getElementById('modi');
+marginLeft=0;
+function moveRight(){
+marginLeft=marginLeft+10;
+img.style.marginLeft=marginLeft+'px';
+}
 imag.onclick=function(){
-  img.style.marginleft='100px' ; 
+    var interval=setInterval(moveRight,100);
+  
 };
