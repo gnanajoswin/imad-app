@@ -17,6 +17,6 @@ button.onclick=function()
        }
      };
 request.open('GET','http://pbjoswin97.imad.hasura-app.io/counter',true);
-request.Once(null);
+request.send(null);
     
 };
