@@ -19,4 +19,8 @@ body {
 .img-medium {
     height: 200px;
 }
-
+.container{
+            max-width:600px;
+             color:grey;
+            padding-top:60px;
+        }
