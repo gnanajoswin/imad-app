@@ -104,7 +104,7 @@ app.get('/test.db',function(req,res){
         if(err){
             res.result(500).send(err.toString())
         }else{
-            res.send(JSON.stringfy(result));
+            res.send(JSON.stringfy(result.rows));
         }
         
     });
