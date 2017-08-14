@@ -129,7 +129,7 @@ app.get('/submit_name',function(req,res){
 app.get('/article/:articleName',function(req,res)
 {
   
-pool.query("SELECT*FROM article WHERE title=" + req.params.articleName.function(err,result){
+pool.query("SELECT*FROM article WHERE title='" + req.params.articleName +"'",function(err,result){
     if(err){
             res.result(500).send(err.toString());
         }else{
