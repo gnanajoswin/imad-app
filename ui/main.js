@@ -45,7 +45,7 @@ submit.onclick=function(){
      };
      var nameInput = document.getElementById('name');
     var name = nameInput.value;
-request.open('GET','http://pbjoswin97.imad.hasura-app.io/submit_name?name='+name,true);
+request.open('GET','http://pbjoswin97.imad.hasura-app.io/submit_name?name=' + name,true);
 request.send(null);
          
 
